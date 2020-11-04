@@ -9,7 +9,7 @@ jobs:
       - name: use ghscript
         uses: actions/github-script@v3.0.0
         with:
-          github_token: ${{ secret.AUTOOPS_PAT }}
+          github-token: ${{ secrets.AUTOOPS_PAT }}
           script: |
             return github.actions
                .listRepoWorkflows({
