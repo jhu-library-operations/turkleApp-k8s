@@ -26,5 +26,10 @@ jobs:
 
               return workflows[0]
             }).then(workflow_id => {
-              console.log(workflow_id)
+              github.actions.createWorkflowDispatch({
+                owner: "jhu-library-operations",
+                repo: "turkle-k8s-project",
+                workflow_id: workflow_id,
+                ref: context.ref
+              })
             })
