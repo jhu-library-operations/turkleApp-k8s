@@ -17,7 +17,7 @@ jobs:
                     repo: "turkle-k8s-project"
             }).then(workflows_result => {
               let workflows = workflows_result.data.workflows
-                .filter(a => a.name === "Submodule Dispatch" && a.state === "active")
+                .filter(a => a.name === "Submodule update dispatch" && a.state === "active")
                 .map(a => a.id);
 
               if (workflows.length === 0) {
