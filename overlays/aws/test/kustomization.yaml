@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization 
+
+bases:
+  - ../../../base/
+  - ./volumes/
+  - ./mysql_backup/
+
+resources:
+  - namespace.yaml
+  - loadbalancer.yaml
+
+namespace: test

@@ -1,0 +1,22 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "mysql",
+    "namespace": "demo",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "mysql",
+        "namespace": "demo",
+        "creationTimestamp": null
+      }
+    },
+    "encryptedData": {
+      "root_pass": "AgCkrPKpKax1SkCVKA4GT8J1R0tQBdcGiGcp3U4ZnjPdU18FMJ1+a8KdiRmjET+avaO0P4pQ0AN3zSKLaHIhVlsdc8pyibb/Nnq0rRTQearLlhS5yd8iQ0zr3bkFL2i5pcwvt0XxF+L2TMwG6kz8mBtMlcWvZK1bHmLT1yV3aXJl8RWxl1+kEfiXtR46BlKXcYxmEzJkEn+BlFSH84d/qcqXOrRFI1xuFzUmsrwXTU0e0J8JwwJBiSjkB/zxuCz9tTd9bLnFHsyDrXZun+QqgLGrxeLpwyjRQWPeorHbm6RwGED3fxnYSLTld0PbRguDXiMysGd4ctg65KuI14fdc8Q8vKWzu9hup/2MWkmh/BWbZo7OjdmdS799paYT0QYeFzXbSowjbiPXUMBe/4TS1OBknCb2RCkKRga2uoATRY9TJby9j6e0hDf4t86BwrL109WzV+RqyzLKmqaYQ1pBlHfOPNIpnqFM9Khe4Pqml7G2XBAeQjIUDMR7BMqcGQIO2+AKDEKoEsbSj/vvMqnI2/5KqAn8WcvjsO5Kr33KiaLxzQui/uimBajqMSbolAHet0wGfW7+GSRYaBNisQUb9w2ujrG9/f4Zv47GS9ZQq12dsUNBQmIo085D6TQ5rn036H0nhob+LjoIPhgtcf0uRb8+GYGMrldh9+8mYmZBjo/+bHrC2spvP++5Watc/wPaBCRhCsQtrL0rODZ0tPvSumtUyDdUloDEgSB4",
+      "user_pass": "AgDSaq224JGEaygo1RtTiGeTmfVRgr9QGf0Wav1N0Y10qHXPooxZ94KoYX3kcvEZYCotDUcMcZpBsFZYnKHh5eQ52IMlseZ/15IwlZWxJO922dmOkMZhGm6U6R1ozfSrFq6u+hSeYKU1txC3lT9OjohrVbMeXXi+RSxuH7cs/q3Kz5idYnx7ZUo1R7EfooF+rmfdTYes/G2y1qTFbq8SoDisjNJ1qzixNk+QTbj7lDAiTYri488kW4xwj+TW4TcG8mPUDS8VE/Ap7TDGUIaUOVZ9hXDrql5pDHvk/CgjuxsxdmqK4ZfmV5JKYHqzAsfOcFXa6IYaK+7WwqfR4ikDzXYvi5trF+7olgdl3IWTcCJYg6z7gX5/tEWzbV+pVicDSrknog7421BNi9P2sc3qAdIL6CxfI8VHnVXDkUUeA93YUJGUGEIS5Ks68YTlxV2pZOLXWurVGYGGPo1ONDpReclb9AKPvfnH/KSJa2Etj8ofOFGyULaG8taz+Icjaz/Dvuxdec/wQed7nYwVwQ7LAUm+EztQ+wfcZ8SAaZnBCFw8IiGXRy9/8baTMHsJnTVu79UjbPlVta60NwN0IisD2vnyk+JGC1g5H4tPfsR2SjHDKRJSch24e3Mb+CYbLI3aDRZq8XVGRjXESxJ8NLR5Q4zEfJWXRvnLJ1BWiga7VrV2k3sDZthLcz+rqaamApEDNeQMzzG21Mt6xitdbtSNSJpL531dtG0KDFaY"
+    }
+  }
+}
