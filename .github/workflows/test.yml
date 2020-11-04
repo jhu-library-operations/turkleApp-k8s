@@ -31,6 +31,8 @@ jobs:
                 repo: "turkle-k8s-project",
                 workflow_id: workflow_id,
                 ref: context.ref,
-                submodule: "turkleApp-k8s"
+                inputs: {
+                  submodule: "turkleApp-k8s"
+                }
               })
             })
