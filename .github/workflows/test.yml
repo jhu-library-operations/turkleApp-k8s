@@ -16,5 +16,15 @@ jobs:
                     owner: "jhu-library-operations",
                     repo: "turkle-k8s-project"
             }).then(workflows_result => {
-              console.log(workflows_result);
+              let workflows = workflows_result.data.workflows
+                .filter(a => a.name === "Submodule Dispatch" && a.state === "active")
+                .map(a => a.id);
+
+              if (workflows.length === 0) {
+                throw "no workflows bitch"
+              }
+
+              return workflows[0]
+            }).then(workflow_id => {
+              console.log(workflow_id)
             })
