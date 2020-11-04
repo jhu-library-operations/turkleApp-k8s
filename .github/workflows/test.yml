@@ -14,4 +14,4 @@ jobs:
                .listRepoWorkflows({
                     owner: "jhu-library-operations",
                     repo: "turkle-k8s-project"
-               )}
+            })
