@@ -1,6 +1,6 @@
 name: Trigger remote dispatch
 on:
-  merge:
+  push:
     branches: [ master ]
 jobs:
   trigger:
