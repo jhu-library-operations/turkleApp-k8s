@@ -1,0 +1,17 @@
+name: Trigger remote dispatch
+on:
+  merge:
+    branches: [ master ]
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: use ghscript
+        uses: actions/github-script:@v3.0.0
+        with:
+          script: |
+            return github.actions
+               .listRepoWorkflows({
+                    owner: "jhu-library-operations",
+                    repo: "turkle-k8s-project"
+               )}
