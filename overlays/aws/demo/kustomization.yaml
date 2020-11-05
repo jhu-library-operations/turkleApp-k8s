@@ -11,6 +11,6 @@ resources:
   - namespace.yaml
 
 patches:
-  - path: turkle_service_metadata.yaml
+  - path: turkle_service_annotations.yaml
     
 namespace: demo
