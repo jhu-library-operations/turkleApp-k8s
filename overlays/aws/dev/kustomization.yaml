@@ -10,4 +10,7 @@ resources:
   - namespace.yaml
   - loadbalancer.yaml
 
+  patches:
+  - path: turkle_service_metadata.yaml
+    
 namespace: dev

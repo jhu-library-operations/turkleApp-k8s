@@ -4,7 +4,7 @@ metadata:
   name: turkle-service
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-type: "nlb"
-    external-dns.alpha.kubernetes.io/hostname: k8s-turkle-derek.cloud.library.jhu.edu
+    external-dns.alpha.kubernetes.io/hostname: k8s-turkle.cloud.library.jhu.edu
 spec:
   type: NodePort
   selector:

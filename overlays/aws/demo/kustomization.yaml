@@ -10,4 +10,7 @@ resources:
   - mysqlsealed.yaml
   - namespace.yaml
 
+patches:
+  - path: turkle_service_metadata.yaml
+    
 namespace: demo
