@@ -10,7 +10,7 @@ resources:
   - namespace.yaml
   - loadbalancer.yaml
 
-patches:
+patchesStrategicMerge:
   - path: turkle_service_annotations.yaml  
   
 namespace: prod
